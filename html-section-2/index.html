@@ -7,10 +7,168 @@
 </head>
 <body>
     <h1>HTML Step II Round Topics</h1>
-    
+    <nav>
+        <ul>
+            <li><a href="#table">HTML Tables</a></li>
+            <li><a href="#list">HTML Lists</a></li>
+            <li><a href="#block-inline">HTML Block & Inline</a></li>
+            <li><a href="#class-id">HTML Classes & Id</a></li>
+            <li><a href="#iframe">HTML Iframe</a></li>
+            <li><a href="#js">HTML JavaScript</a></li>
+            <li><a href="#file-path">HTML File Paths</a></li>
+
+        </ul>
+    </nav>
+    <section>   
+        <article>
+            <h2 id="table">I. HTML Tables</h2>
+            <p>HTML Tables allow developers to arrange data in table form (rows & columns).</p>
+            <div class="table-preview" style="display: flex; gap: 30px;">
+                <figure>
+                    <img src="./img/code.png" alt="HTML table image" width="400px">
+                    <figcaption>Figure 2.1: HTML Tables Syntax</figcaption>
+                </figure>
+                <iframe src="table.html" title="HTML Table Iframe" frameborder="1" width="600px"></iframe>
+            </div>
+
+            <p>Know let's discuss various  element contain in the `&lt;table&gt;` tag</p>
+            <dl>
+                <dt>&lt;table&gt;</dt>
+                <dd>
+                    Defines a table in HTML.
+                </dd>
+                <dt>&lt;caption&gt;</dt>
+                <dd>
+                    Defines a table caption.
+                </dd>
+                <dt>&lt;thead&gt;</dt>
+                <dd>
+                    Use to group the header content in a table.
+                </dd>
+                <dt>&lt;tr&gt;</dt>
+                <dd>
+                    Defines a row in a table.
+                </dd>
+                <dt>&lt;th&gt;</dt>
+                <dd>
+                    Defines a header cell in a table.
+                </dd>
+            
+                <dt>&lt;tbody&gt;</dt>
+                <dd>
+                    Use to group the body content in a table.
+                </dd>
+            
+                <dt>&lt;td&gt;</dt>
+                <dd>
+                    Defines a cell in a table.
+                </dd>
+
+                <dt>rowspan</dt>
+                <dd>
+                    Is an HTML table attribute use to make a cell span over multiple rows.
+                </dd>
+
+                <dt>colspan</dt>
+                <dd>
+                    Is an HTML table attribute use to make a cell span over multiple columns.
+                </dd>
+            </dl>
+
+            <p>Read more on <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">HTML Tables</a></p>
+        </article>
+
+        <article>
+            <h2 id="list">II. HTML List</h2>
+            <p>They are used to group set of related items into a list, they exist three types of HTML List;</p>
+            <dl>
+                <dt>Ordered List</dt>
+                <dd>
+                    It's used to define items that have a specific order. eg <i>Steps in a process, Ranking items,Chronological lists</i>.
+                </dd>
+
+                <dt>Un-ordered List</dt>
+                <dd>
+                    It's used to define items that don't have a specific order. eg <i>A grocery list, A list of features of a product, A list of qualifications</i>.
+                </dd>
+
+                <dt>Description List</dt>
+                <dd>
+                    A description list is a list of terms, with a description of each term.
+                </dd>
+            </dl>
+            <p>Read more on <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">HTML List</a></p>
+        </article>
+
+        <article>
+            <h2 id="block-inline">III. HTML Block & Inline</h2>
+            <ul>
+                <li><b>Block elements</b> always starts on a new line and takes up the full width available.</li>
+                <li><b>Inline elements</b>  does not start on a new line and it only takes up as much width as necessary.</li>
+            </ul>
+
+            <p>Read more on <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Block & Inline</a></p>
+        </article>
+
+        <article>
+            <h2 id="class-id">IV. HTML Classes & Id</h2>
+            <ul>
+                <li><b>HTML class</b> attribute is used to specify a class(es) for an HTML element.</li>
+                <li><b>HTML id</b> attribute is used to specify an id for an HTML element.</li>
+            </ul>
+
+            <p>Read more on <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Classes & Id</a></p>
+        </article>
+
+        <article>
+            <h2 id="iframe">V. HTML Iframe</h2>
+            <p>HTML iframe is used to display a web page within a web page.</p>
+            <figure>
+                <img src="./img/code-2.png" alt="HTML Iframe Syntax" width="500px">
+                <figcaption>Figure 2.2: Iframe Syntax</figcaption>
+            </figure>
+
+            <p>HTML Iframe can also be used as target frame for link as shown below;</p>
+            <figure>
+                <img src="./img/code-3.png" alt=" Iframe Target Syntax" width="500px">
+                <figcaption>Figure 2.3: HTML Iframe Target Syntax</figcaption>
+            </figure>
+
+            <p>Read more on <a href="https://www.w3schools.com/html/html_iframe.asp" target="_blank">HTML Iframe</a></p>
+        </article>
+
+        <article>
+            <h2 id="js">VI. HTML JavaScript</h2>
+            <p>JavaScript is used to make HTML pages more dynamic and interactive. And is usually associated with `&lt;script&gt;` & `&lt;noscript&gt;` tag.</p>
+            <ul>
+                <li><b>&lt;script&gt;</b> Defines a client-side script (website logic).</li>
+                <li><b>&lt;noscript&gt;</b> Defines an alternate content for users that do not support client-side scripts.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2 id="file-path">VII. HTML File Paths</h2>
+            <p>File path is used describes the location of a file in a web site's folder structure.</p>
+
+            <dl>
+                <dt>Absolute File Path</dt>
+                <dd>
+                    An absolute file path gives the full URL to a file.
+                </dd>
+
+                <dt>Relative File Path</dt>
+                <dd>
+                    A relative file path points to a file relative to the current page.
+                </dd>
+            </dl>
+        </article>
+    </section>
+
     <nav>
         <a href="/" target="_self"><button>Previous</button></a>
-        <a href="/" target="_self"><button>Next</button></a>
+        <a href="index-2.html" target="_self"><button>Next</button></a>
     </nav>
 </body>
 </html>
+
+
